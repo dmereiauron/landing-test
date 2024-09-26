@@ -1,0 +1,51 @@
+.download-btn {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.arrow {
+  position: fixed;
+  width: 0;
+  height: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  animation: bounce 1s infinite;
+}
+
+.arrow.down {
+  border-top: 10px solid #007bff;
+  top: -20px;
+  right: -30px;
+}
+
+.arrow.right {
+  border-left: 10px solid #007bff;
+  left: -20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.logo {
+  a {
+    font-size: 18px;
+    color: $accent;
+    font-weight: 500;
+    text-decoration: none;
+
+    &:hover {
+      @include hover;
+    }
+  }
+}
+
+@media screen and (min-width: $mobile) {
+  .logo a {
+    font-size: 21px;
+  }
+}

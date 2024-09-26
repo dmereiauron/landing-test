@@ -1,6 +1,9 @@
 @import './normalize';
 @import './variables';
+@import './mixins';
 @import './container';
+@import './base';
+@import './sections';
 
 :root {
   font-family: Roboto, sans-serif;
@@ -14,4 +17,19 @@
 
 body {
   background-color: $background-color;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  min-width: 360px;
+}
+
+footer {
+  margin-top: auto;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
 }
