@@ -1,9 +1,15 @@
 @import './normalize';
 @import './variables';
+@import './container';
 
 :root {
   font-family: Roboto, sans-serif;
   color: $dark;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
 }
 
 body {

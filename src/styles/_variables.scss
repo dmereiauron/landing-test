@@ -1,6 +1,21 @@
+// Colors
+
 $accent: #ffb800;
 $dark: #000;
 $white: #fff;
 $lightblue: #f3f5f6;
 $grey: #929292;
 $background-color: #fbfbfb;
+
+// Breakpoints
+
+$desktop-full: 1200px;
+$desktop: 992px;
+$tablet: 768px;
+$mobile: 576px;
+
+// Containers
+
+$c-desktop-full: calc($desktop-full - 40px);
+$c-desktop: calc($desktop - 30px);
+$c-tablet: calc($tablet - 30px);
