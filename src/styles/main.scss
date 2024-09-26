@@ -1,0 +1,11 @@
+@import './normalize';
+@import './variables';
+
+:root {
+  font-family: Roboto, sans-serif;
+  color: $dark;
+}
+
+body {
+  background-color: $background-color;
+}
