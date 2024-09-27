@@ -75,21 +75,4 @@ document.addEventListener('DOMContentLoaded', function () {
       Arrow.show(5000)
     }, 1500)
   }
-
-  function showDownloadArrow() {
-    if (downloadArrow.classList.contains('hidden')) {
-      downloadArrow.classList.remove('hidden')
-    }
-
-    // Adjust arrow position based on browser
-    if (navigator.userAgent.indexOf('Chrome') !== -1) {
-      downloadArrow.className = 'arrow down'
-      downloadArrow.style.left = '50%'
-      downloadArrow.style.transform = 'translateX(-50%)'
-    } else if (navigator.userAgent.indexOf('Firefox') !== -1) {
-      downloadArrow.className = 'arrow right'
-      downloadArrow.style.top = '50%'
-      downloadArrow.style.transform = 'translateY(-50%)'
-    }
-  }
 })
