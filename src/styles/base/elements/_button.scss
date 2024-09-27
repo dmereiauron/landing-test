@@ -1,0 +1,30 @@
+.button {
+  text-decoration: none;
+  text-transform: uppercase;
+  min-width: 189px;
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border: none;
+  padding: 10px 11px 10px;
+  background: linear-gradient(
+    0deg,
+    #130999 -0.01%,
+    #174d8f 35.01%,
+    #1a7f87 64.91%,
+    #1c9e83 87.44%,
+    #1daa81 99.99%
+  );
+  border-radius: 32px;
+  &:hover {
+    @include hover;
+  }
+}
+
+.button__text {
+  color: $white;
+  padding-right: 16px;
+  font-size: 18px;
+  font-weight: 500;
+}
