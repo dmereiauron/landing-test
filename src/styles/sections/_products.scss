@@ -1,5 +1,6 @@
 .product-section {
   padding-top: 80px;
+  padding-top: 100px;
 }
 
 .product-section__title {
@@ -30,6 +31,7 @@
 @media screen and (min-width: $desktop) {
   .product-section {
     padding-top: 120px;
+    padding-bottom: 160px;
   }
 
   .product-section__title {
@@ -44,6 +46,7 @@
 @media screen and (min-width: $desktop-full) {
   .product-section {
     padding-top: 151px;
+    padding-bottom: 303px;
   }
   .product-section__title {
     margin-bottom: 56px;

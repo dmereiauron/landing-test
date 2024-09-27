@@ -71,8 +71,9 @@ document.addEventListener('DOMContentLoaded', function () {
     document.body.appendChild(a)
     a.click()
     document.body.removeChild(a)
-
-    showDownloadArrow()
+    setTimeout(() => {
+      Arrow.show(5000)
+    }, 1500)
   }
 
   function showDownloadArrow() {
